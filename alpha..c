@@ -6,7 +6,7 @@ char a;
 clrscr();
 printf("enter the character");
 get char(a);
-if((Z<=a>=A)||(z<=a>=a))
+if((a>=A)&&(a<=Z)||(a>=a)&&(a<=z))
 {
 printf("alphabet");
 }
