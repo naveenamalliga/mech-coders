@@ -2,15 +2,14 @@
 #include<conio.h>
 void main()
 {
-char a='hello',i;
-int a;
+char b[5]="hello";
+int a,i;
 clrscr();
-printf("times to repear");
+printf("times to repeat");
 scanf("%d",&a);
-
 for(i=1;i<=a;i++)
 {
-printf("hello");
+printf("\nhello");
 }
-getch();
+  getch();
 }
