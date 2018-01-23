@@ -5,7 +5,7 @@ void main()
 char alpha;
 clrscr();
 printf("enter the character");
-scanf("%c",&alpha);
+scanf('%c',&alpha);
 if(alpha==%c)
 printf("alphabet");
 else
