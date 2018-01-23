@@ -16,7 +16,7 @@ if((a>b)||(a>c))
   }
   else
   {
-    printf("%d",c)
+    printf("%d",c);
   }
   getch();
 }
