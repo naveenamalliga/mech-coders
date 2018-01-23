@@ -2,13 +2,17 @@
 #include<conio.h>
 void main()
 {
-char alpha;
+char a;
 clrscr();
 printf("enter the character");
-scanf('%c',&alpha);
-if(alpha==%c)
+get char(a);
+if((Z<=a>=A)||(z<=a>=a))
+{
 printf("alphabet");
-else
+}
+  else
+{
 printf("not alphabet");
+  }
 getch();
 }
