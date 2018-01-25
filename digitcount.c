@@ -2,7 +2,7 @@
 #include<conio.h>
 void main()
 {
-int a[i],b;
+ int a[50],b;
 clrscr();
 printf("enter the number=");
 scanf("%d",&a[i]);
