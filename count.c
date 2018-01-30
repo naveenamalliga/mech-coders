@@ -1,15 +1,19 @@
 #include<stdio.h>
 #include<conio.h>
 void main()
-int a,b=0;
-getch();
-printf("enter the number=");
-scanf("%d,&a);
-while(a==0)
 {
-b=a/10;
-b++
+long int n;
+  clrscr();
+int c=0;
+printf("enter the number:");
+scanf("%ld",&n);
+while(n!=0)
+{
+    n=n/10;
+    ++c;
 }
-printf("the number of digits=%d",b);
+printf("No of digits=%d", c);
 getch();
+    
 }
+
