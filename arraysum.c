@@ -1,16 +1,19 @@
 #include<stdio.h>
 #include<conio.h>
-void main();
+void main()
 {
-  int a[b],b,c,i,sum;
+  int a[100],b,c,i,sum=0;
   clrscr();
   printf("enter the N and K numbers");
   scanf("%d%d",&b,&c);
   printf("enter the array of %d integers",b);
-  scanf("%d",&a);
-  for(i=0;i<=c;i++)
+  for(i=0;i<b;i++)
   {
-      sum=a[0]+a[i];
+  scanf("%d",&a[i);
+  }
+  for(i=0;i<c;i++)
+  {
+      sum=sum+a[i];
   }
   printf("the sum of the first %d integers=%d",c,sum);
   getch();
