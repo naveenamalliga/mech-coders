@@ -2,10 +2,11 @@
 #include<conio.h>
 void main()
 {
-  int n,r,s=0,t;
+  int r,s=0,t;
+  long int n;
   clrscr();
   printf("Enter the number");
-  scanf("%d",&n);
+  scanf("%ld",&n);
   t=n;
   while(n!=0)
   {
