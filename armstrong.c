@@ -6,14 +6,14 @@ void main()
   clrscr();
   printf("Enter the number");
   scanf("%d",&n);
+  t=n;
   while(n!=0)
   {
   r=n%10;
   s=s+(r*r*r);
   n=n/10;
-  n=t;
   }
-  if(n==t)
+  if(s==t)
   {
   printf("Yes");
   }
@@ -21,4 +21,5 @@ void main()
   {
   printf("No");
   }
+  getch();
  } 
