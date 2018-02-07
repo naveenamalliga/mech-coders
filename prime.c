@@ -6,21 +6,20 @@ void main()
   clrscr();
   printf("Enter the number");
   scanf("%d",&a);
-  for(i=0;i<=a;i++)
+  for(i=1;i<=a;i++)
   {
   if(a%i==0)
   {
   count++;
-  break;
   }
   }
   if(count==2)
   {
-  printf("Entered number is prime");
+  printf("yes");
   }
   else
   {
-  printf("Entered number is not prime");
+  printf("No");
   }
   getch();
  } 
