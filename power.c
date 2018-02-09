@@ -2,11 +2,17 @@
 #include<conio.h>
 void main()
 {
-int a,b,c;
+int a,b,c=1,i=1;
 clrscr();
-printf("A=,\B=");
+printf("enter the base and exponent");
 scanf("%d%d",&a,&b);
-c=a^b;
-printf("C=",c);
+  while(i<=b)
+  {
+    c=c*i;
+    i++;
+  }
+  printf("%d",c);
 getch();
 }
+
+
