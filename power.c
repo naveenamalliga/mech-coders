@@ -8,7 +8,7 @@ printf("enter the base and exponent");
 scanf("%d%d",&a,&b);
   while(i<=b)
   {
-    c=c*i;
+    c=c*a;
     i++;
   }
   printf("%d",c);
