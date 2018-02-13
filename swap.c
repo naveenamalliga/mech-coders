@@ -2,13 +2,13 @@
 #include<conio.h>
 int main()
 {
-  int a,b,c;
+  long int a,b,c;
   clrscr();
   printf("Enter 2 numbers");
-  scanf("%d%d",&a,&b);
+  scanf("%ld%ld",&a,&b);
   c=a;
   a=b;
   b=c;
-  printf("%d%d",a,b);
+  printf("%ld%ld",a,b);
   getch();
   }
