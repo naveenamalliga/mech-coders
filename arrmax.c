@@ -6,7 +6,7 @@ int n,i,j,t;
  long int a[20];
 clrscr();
 printf("enter the number of elements");
-scanf("%d",&n);
+scanf("%ld",&n);
 printf("enter the array values");
 for(i=0;i<n;i++)
 {
@@ -19,6 +19,6 @@ for(i=0;i<n;i++)
  a[i+1]=a[i];
  }
  }
- printf("the maximum value in the array is %d",a[i-1]);
+ printf("the maximum value in the array is %ld",a[i-1]);
  getch();
  }
