@@ -10,7 +10,7 @@ scanf("%ld",&n);
 printf("enter the array values");
 for(i=0;i<n;i++)
 {
-scanf("%d",&a[i]);
+scanf("%ld",&a[i]);
 }
 for(i=0;i<n;i++)
 {
