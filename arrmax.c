@@ -2,7 +2,8 @@
 #include<conio.h>
 void main()
 {
-int a[20],n,i,j,t;
+int n,i,j,t;
+ long int a[20];
 clrscr();
 printf("enter the number of elements");
 scanf("%d",&n);
