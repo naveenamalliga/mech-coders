@@ -1,3 +1,4 @@
+
 #include<stdio.h>
 #include<conio.h>
 void main()
@@ -7,7 +8,6 @@ clrscr();
 printf("enter the values of an array");
 scanf("%d",&a);
 printf(" enter the number of elements in an array");
-scanf("%d",&a);
 for(i=0;i<a;i++)
 {
 scanf("%d",&b[i]);
