@@ -2,17 +2,18 @@
 #include<conio.h>
 void main()
 {
-int a[10];
+char a[10];
 clrscr();
 printf(" enter the string");
-scanf("%s",&a);
-if(a=="%d")
+scanf("%s",&a[10]);
+if((a[10]>=0)||(a[10]<=9))
 {
 printf("yes");
 }
 else
 {
-printf("No"0;
+printf("No");
 }
 getch();
 }
+
